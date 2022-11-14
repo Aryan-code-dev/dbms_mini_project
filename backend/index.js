@@ -11,6 +11,7 @@ const cors = require('cors')
 app.use(express.json())// activation
 app.use(express.urlencoded())
 app.use(cors())//initialisation
+const PORT = process.env.PORT || 4000 
 //require('dotenv').config()//activating env
 //connect takes the link first but we dont wanna store username and pass in server hence dotenv
 mongoose.connect('mongodb+srv://root:mongoroot647@cluster0.dnwerzh.mongodb.net/Robotics_club?retryWrites=true&w=majority',
@@ -249,6 +250,6 @@ app.post('/checkthresh',async (request,response)=>{
     
     
 }) 
-app.listen(4000, () => console.log("server is up and running"))
+app.listen(PORT, () => console.log("server is up and running"))
 
 //arrangement of lines in thsi order is imp
