@@ -1,6 +1,7 @@
 # dbms_mini_project
-The backend directory consists the node application
-The signup directory consists the reat app
+###### The backend directory consists the node application
+
+###### The signup directory consists the react app
 ## Tech stack
 ![image](https://github.com/Aryan-code-dev/dbms_mini_project/assets/86364775/58b4b8ec-d96f-4edc-839e-2fc5e0d87314)
 ## ER Diagram
